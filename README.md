@@ -3,7 +3,7 @@
 
 
 
-![python-logo-png-python-logo-clipart-transparent-background-png-img-280x320](https://github.com/AndreaLlavel/Comision24179-FSP-4/assets/112596102/17b4d533-a1c4-46c2-8fa1-9bd593087d11)
+![python-logo-png-python-logo-clipart-transparent-background-png-img-80x120](https://github.com/AndreaLlavel/Comision24179-FSP-4/assets/112596102/17b4d533-a1c4-46c2-8fa1-9bd593087d11)
 
 
 
