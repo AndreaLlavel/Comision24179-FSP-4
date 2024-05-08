@@ -265,9 +265,7 @@ main {
     font-family: var(--alternative-font);
     font-size: var(--font-jumbo);
     width: 280px;
-    height: 50px;
-    
-    
+    height: 50px;    
 }
 
 .hero__text {
