@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Contacto</title>
+        <link rel="stylesheet" href="/Python1/Episteme/public/css/index.css">
+        <link rel="stylesheet" href="/Python1/Episteme/public/css/formreg.css">
+    </head>
+    <br>
+    <body class="body">
+    <header class="page-header"><!--Inicio Header-->
+        <nav class="navbar">
+            <picture class="navbar__logo">
+                <hr>
+                <img src="/Python1/Episteme/public/img/icons/epis1.gif" width="70px" height="120px">
+            </picture>
+            <ul class="navbar__menu">
+                <li class="navbar__item with-submenu">
+                    <a class="navbar__link with-icon" href="../shop.html">INFO<iconify-icon
+                            icon="tabler:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Cursos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Videos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">PDF</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/contact.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/login.html">ACCESO</a>
+                </li>
+                <li>
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/formularioderegistro.html">REGISTRARSE</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__cart" href="../shop.html">
+                        <img src="../../img/icons/cart-icon.svg" alt="icono de carrito"></a>
+                </li>
+            </ul>
+        </nav>
+    </header><!--Fin Header-->
+    
+    <section>
+   <fieldset>
+    <h3 style="text-align: center;">Formulario de contacto</h3>
+
+    <form name="formularioContacto" onsubmit="return validarFormulario()" method="post">
+        Nombre: <input type="text" name="nombre"><br>
+        Email: <input type="text" name="email"><br>
+        Teléfono: <input type="text" name="telefono"><br>
+        Curso: <textarea name="curso"></textarea><br>
+        Mensaje: <textarea name="mensaje"></textarea><br>
+        Acepto los términos y condiciones: <input type="checkbox" name="terminos"><br>
+        Seleccione su país: 
+        <select name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="Uruguay">Uruguay</option>
+        </select><br>
+        <img src="/Python1/Episteme/public/img/icons/FormularioEpisteme.png" alt="Imagen de Formulario" width="200" height="400">
+        <input type="submit" value="Enviar">
+    </form>
+   </fieldset>
+   </section>
+    <footer class="footer">
+        <nav class="navbar container">
+            <ul class="navbar__item">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop.html">SHOP</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/formularioderegistro.html">REGISTRARSE</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/login.html">ACCESO</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/contact.html">CONTACTO</a>
+                </li>
+            </ul>
+            <picture>
+                <img src="/Python1/Episteme/public/img/icons/manzanaverde.jpg" alt="Logo de Episteme">
+            </picture>
+        </nav>
+        <p class="footer__copy">All rights reserved 2023 - EPISTEME &copy;</p>
+        <br>
+        <a href="/Python1/Episteme/public/index.html">Volver</a>
+    </footer>
+    </body>
+    </html>
+
+
