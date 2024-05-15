@@ -152,14 +152,15 @@ header {
 
 .navbar__card {
     max-width: 300px;
-    background-color: rgb(113, 136, 78);
-    color:gray;
+    background-color: rgb(26, 39, 6);
+    color: black;
 }
 
 .navbar__menu {
     display: flex;
     align-items: center;
-    gap: var(--spacing-20);
+    gap: var(--spacing-12);
+    font-size: 9px;
 }
 
 .navbar__link {
@@ -452,7 +453,7 @@ main {
     width: 100%;
     box-shadow: 0px 0px 0px 0px;
     z-index: 999px;
-    padding: 50px;
+    padding: 90px;
     margin-top: 50px;
     text-align: center;
     
@@ -793,10 +794,45 @@ aside img {
     height: 310px;
 }
 
+form {
+    max-width: 200px;
+}
 
+p * {
+    display: block;
+}
 
+input.mail {
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
 
+    font-family: inherit;
+    font-size: 90%;
+    box-sizing: border-box;
+}
 
+.input.invalid {
+    border-color: #900;
+    background-color: #fdd;
 
+}
 
+.input:focus.invalid {
+    outline: none;
+}
+
+.error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+
+}
+.error-active {
+    padding: 0.3em;
+}
 
