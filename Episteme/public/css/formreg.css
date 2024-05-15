@@ -5,7 +5,9 @@
     --marronado: rgb(96, 128, 44);
 }
 
-/* Estilo general */
+main {
+    margin-top: 20px; 
+}
 body {
     font-family: Arial, sans-serif;
     background-color: var(--gris);
