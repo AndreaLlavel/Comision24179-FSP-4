@@ -2,7 +2,10 @@
 :root {
     --verde-manzana: rgb(191, 214, 145);
     --gris: #7F8C8D;
+
     --marronado: rgb(96, 128, 44);
+
+    --marronado: #784
 }
 
 /* Estilo general */
@@ -58,8 +61,6 @@ nav a {
     margin: 0 10px;
     text-decoration: none;
 }
-
-/* Pie de página*/ 
 .footer {
     background-color: var(--verde-manzana);
     color: var(--marronado);
@@ -72,3 +73,4 @@ nav a {
 form img {
     width: 900px;
 }
+

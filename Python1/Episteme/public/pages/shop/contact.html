@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulario de Contacto</title>
+
        <!--<link rel="stylesheet" href="/Python1/Episteme/public/css/index.css">-->
         <link rel="stylesheet" href="/Python1/Episteme/public/css/contact.css">
     </head>
@@ -13,7 +14,11 @@
         <nav class="navbar">
             <picture class="navbar__logo">
                 <hr>
+
                 <img src="/Python1/Episteme/public/img/icons/epis1.gif" width="70px" height="120px">
+
+                <img src="../../img/icons/epis1.gif" width="70px" height="120px">
+
             </picture>
             <ul class="navbar__menu">
                 <li class="navbar__item with-submenu">
@@ -32,6 +37,7 @@
                     </ul>
                 </li>
                 <li>
+
                     <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/contact.html">CONTACTO</a>
                 </li>
                 <li>
@@ -39,6 +45,14 @@
                 </li>
                 <li>
                     <a class="navbar__link" href="/Python1/Episteme/public/pages/shop/formularioderegistro.html">REGISTRARSE</a>
+
+                    <a class="navbar__link" href="./contact.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a class="navbar__link" href="./login.html">ACCESO</a>
+                </li>
+                <li>
+                    <a class="navbar__link" href="./formularioderegistro.html">REGISTRARSE</a>
                 </li>
                 <li class="navbar__item">
                     <a class="navbar__cart" href="../shop.html">
@@ -47,10 +61,15 @@
             </ul>
         </nav>
     </header><!--Fin Header-->
+
     
     <section>
    <fieldset>
     <h3 style="text-align: center;">Formulario de contacto</h3>
+
+
+    <h1 style="text-align: center;">Formulario de contacto</h1>
+
 
     <form name="formularioContacto" onsubmit="return validarFormulario()" method="post">
         Nombre: <input type="text" name="nombre"><br>
@@ -66,15 +85,23 @@
             <option value="chile">Chile</option>
             <option value="Uruguay">Uruguay</option>
         </select><br>
+
         <img src="/Python1/Episteme/public/img/icons/FormularioEpisteme.png" alt="Imagen de Formulario" width="200" height="400">
         <input type="submit" value="Enviar">
     </form>
    </fieldset>
    </section>
+
+        <img src="../../img/icons/FormularioEpisteme.png" alt="Imagen de Formulario" width="200" height="400">
+        <input type="submit" value="Enviar">
+    </form>
+
+
     <footer class="footer">
         <nav class="navbar container">
             <ul class="navbar__item">
                 <li class="navbar__item">
+
                     <a class="navbar__link" href="/Python1/Episteme/public/pages/shop.html">SHOP</a>
                 </li>
                 <li class="navbar__item">
@@ -97,5 +124,27 @@
     </footer>
     </body>
     </html>
+
+                    <a class="navbar__link" href="../shop.html">SHOP</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./pages/register.html">REGISTRARSE</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="../shop/login.html">LOGIN</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="../shop/contact.html">CONTACTO</a>
+                </li>
+            </ul>
+            <picture>
+                <img src="/../img/icons/manzanaverde.jpg" alt="Logo de Episteme">
+            </picture>
+        </nav>
+        <p class="footer__copy">All rights reserved 2023 - EPISTEME &copy;</p>
+    </footer>
+    </body>
+    </html></li>
+
 
 
