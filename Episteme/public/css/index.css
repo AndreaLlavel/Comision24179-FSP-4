@@ -772,8 +772,9 @@ section h3 {
     
 }
 
-thead table {
+thead, table {
     border-radius: 3px black;
+    background-color: greenyellow;
 }
 
 aside {
